@@ -248,6 +248,9 @@ nav .fa-solid{
                     display: block;
                     font-size: 25px;
             }
+        nav .fa-solidfa-xmark{
+            position: right: 25px;
+        }
         nav ul{
             background:#00e5ff;
             position: fixed;
@@ -257,6 +260,7 @@ nav .fa-solid{
             height: 100vh;
             padding-top: 50px;
             z-index: 2;
+            transition: right 0.5s;
         }
         nav ul li{
             display: block;
