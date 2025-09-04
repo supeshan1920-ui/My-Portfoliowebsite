@@ -13,11 +13,11 @@
         <nav>
             <img src="" class="logo">
             <ul id="sidemenu">
-    <li><a href="#Header" onclick="closemen()">Home</a></li>
-    <li><a href="#about" onclick="closemen()">Über mich</a></li>
-    <li><a href="#projekte" onclick="closemen()">Projekte</a></li>
-    <li><a href="#contact" onclick="closemen()">Kontakt</a></li>
-    <i class="fa-solid fa-xmark" onclick="closemen()"></i>
+    <li><a href="#Header" onclick="closemenu()">Home</a></li>
+    <li><a href="#about" onclick="closemenu()">Über mich</a></li>
+    <li><a href="#projekte" onclick="closemenu()">Projekte</a></li>
+    <li><a href="#contact" onclick="closemenu()">Kontakt</a></li>
+    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
 </ul>
             <i class="fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
@@ -142,14 +142,14 @@
         }
     </script>
     <script>
-        var sidemenu = document.getElementById("sidemenu");
-        function openmenu(){
-            sidemenu.style.right = "0";
-        }
-        function closemen(){
-            sidemenu.style.right = "-200px";
-        }
-    </script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
 
 <script>
   const scriptURL = "https://script.google.com/macros/s/AKfycbzUTJ0XA54INK9UaNTCZ2-q0cu2N8wpMDsNClXDZU52SY0sj20WSWUi544w-ks2vKdZ/exec"
