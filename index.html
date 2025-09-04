@@ -12,14 +12,14 @@
       <div class="container">
         <nav>
             <img src="" class="logo">
-            <ul>
+            <ul id="sidemenu">
                 <li><a href="#Header">Home</a></li>
                 <li><a href="#about">Über mich</a></li>
                 <li><a href="#projekte">Projekte</a></li>
                 <li><a href="#contact">Kontakt</a></li>
-                 <i class="fa-solid fa-xmark"></i>
+                 <i class="fa-solid fa-xmark" onclick="closemen()"></i>
             </ul>
-            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
 
         <div class="header-text">
@@ -138,6 +138,15 @@
             }
             event.currentTarget.classList.add("active-link");
             document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemen(){
+            sidemenu.style.right = "-200px";
         }
     </script>
 
