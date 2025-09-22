@@ -30,18 +30,41 @@ body{
 }
 
 .logo {
-    height: 65px; /* Adjust this value as needed */
+    height: 65px;
     width: auto;
+    padding-left: 30px;
 }
+
+.logi{
+    align-items: center;
+    display: flex;
+    gap: 12px;
+    font-family: "jost", sans-serif;
+}
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .container{
     padding: 10px 10%;
 }
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;  
+  top: 0;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.15); 
+  backdrop-filter: blur(15px);  
+  border-radius: 16px;                  
+  border: 1px solid rgba(255, 255, 255, 0.2); 
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
 }
+
 nav ul li{
     display: inline-block;
     list-style: none;
