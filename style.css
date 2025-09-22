@@ -18,6 +18,17 @@ body{
     background-size: cover;
     background-position: center;
 }
+
+#two{
+    font-size: 38px;
+}
+
+.about{
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
 .logo {
     height: 65px; /* Adjust this value as needed */
     width: auto;
@@ -93,6 +104,7 @@ nav ul li a:hover::after{
     font-size: 50px;
     font-weight: 600;
     color: #fff;
+    font-family: 'Roboto Condensed", sans-serif';
 }
 .tab-titles{
     display: flex;
@@ -169,7 +181,7 @@ nav ul li a:hover::after{
 }
 .social-icons a{
     text-decoration: none;
-    color: #9f9f9f;
+    color: #00e5ff;
     font-size: 30px;
     margin-right: 15px;
     display: inline-block;
@@ -225,6 +237,16 @@ form .btn2{
     font-weight: 300;
     margin-top: 20px;
 
+}
+
+.plain-email {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+.plain-email:hover, .plain-email:active {
+    text-decoration: none;
+    color: #00e5ff; /* Optional: highlight on hover */
 }
 
 /*-----------responsive------------*/
