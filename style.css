@@ -260,6 +260,10 @@ nav ul li a:hover::after{
     margin-bottom: 2px;
 }
 
+.layer h3 p{
+    color: #000;
+}
+
 .layer a{
     margin-top: 10px;
     text-decoration: none;
