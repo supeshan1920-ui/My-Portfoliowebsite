@@ -267,17 +267,18 @@ nav ul li a:hover::after{
 }
 
 .layer h3{
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 20px;
-    font-size: 25px;
+    font-size: 30px;
     color: #000;
 }
 
 .layer p{
     font-size: 20px;
-    font-family: "Joan", serif;
+    font-family: "Joan",;
     margin-bottom: 2px;
     color: #000;
+    font-weight: 600;
 }
 
 .layer h3 p{
