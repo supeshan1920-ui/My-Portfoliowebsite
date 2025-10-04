@@ -20,34 +20,52 @@
             <ul id="sidemenu">
     <li><a href="#Header" onclick="closemenu()">Home</a></li>
     <li><a href="#about" onclick="closemenu()">Über mich</a></li>
-    <li><a href="#projekte" onclick="closemenu()">Projekte</a></li>
+    
+    <li><a href="#projekte" onclick="closemenu()">Projekten</a></li>
     <li><a href="#contact" onclick="closemenu()">Kontakt</a></li>
     <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
 </ul>
             <i class="fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
+        
+        
         <div class="container">
+            <div class="home-col-1">
         <div class="header-text">
-            <p>Ziel: Als Informatiker EFZ</p>
+            <p id="three">Ziel: Als Informatiker EFZ</p>
+            <div class="line"></div>
             <h1>Hallo, Ich bin <span>Supeshan</span><br></h1>
-            <h1 id="two"> Lernende an der Berufswahlschule <br>Limmattal</h1>
+            <h1 id="two"> Lernende an der Berufswahlschule <br>Limmattal, Dietikon</h1>
+        </div>
         </div>
       </div>
+      
       </div>
       <!--------------about-------------->
 
     
     <div id="about">
         <div class="container">
+            <h1 class="about-t">Persönliches Profil</h1>
             <div class="row">
                 <div class="about-col-1">
                     <img src="pic/ME.jpeg">
                 </div>
                 <div class="about-col-2">
-                    <h1 class="sub-title">Persönliches Profil</h1>
-                    <p class="about"> Ich bin im Juni 2023 in die Schweiz gekommen. Zurzeit besuche ich das praktische<br>Berufsvorbereitungsjahr im Bereich Elektrotechnik an der
-                         Berufswahlschule Limmattal in Dietikon. Dort vertiefe ich meine Informatikkenntnisse und bereite mich auf eine Lehrstelle vor.
-                        In der Klasse arbeiten<br> wir mit Fusion 3D und haben mit Robotik begonnen. Ausserdem lerne ich Programmieren mit Blockly <br>und Python. 
+                    
+                    <p class="about">Interessante Fakten über mich sind, dass ich gerne Schach spiele und in meiner Freizeit programmiere.
+                                    Oft arbeite ich auch an meiner Portfolio-Webseite. Ausserdem lese ich gerne Bücher wie Atomic Habits,
+                                    die mich motivieren, neue Dinge zu lernen und gute Gewohnheiten zu entwickeln. In meiner Freizeit treffe
+                                    ich mich auch gern mit Freunden und verbringe schöne Zeit mit ihnen. 
+                    </p>
+
+                    <div class="line"></div>
+
+                    <p class="about">
+                        Ich möchte eine Ausbildung als Informatiker EFZ in Applikationsentwicklung beginnen und bewerbe mich dafür.
+                        Ich habe Kenntnisse in HTML, CSS und JavaScript und habe eine To-Do-Listen-App programmiert,<br>um meine Fähigkeiten zu üben und zu verbessern.
+                        Ausserdem kann ich mit Autodesk Fusion arbeiten. Zurzeit arbeite ich mit meiner Klasse an einem Elektrotechnik-Projekt: einem Druckluftmotor.
+                        Dafür habe<br> ich bereits fünf Teile konstruiert.
                     </p>
 
                     <div class="tab-titles">
@@ -66,20 +84,20 @@
 
                     <div class="tab-contents" id="Erfahrungen">
                         <ul>
-                            <li><span>Powercoders Webentwicklungskurs</span><br>Programmierung Sprache: HTML, CSS & Javascript</li>
-                            <li><span>Portfolio-Website Entwicklung</span><br>Ich habe diesen Website entwickelt<br> um meine Projekte, 
+                            <li><span>Portfolio-Website Entwicklung</span><br> Website entwickelt um meine Projekte, 
                                       Fähigkeiten und Lernfortschritte zu präsentieren.</li>
+                            <li><span>CAD Konstruktion</span><br>Mit Autodesk Fusion (projekten nach unten gestellt) </li>
+                            <li><span>Robotiks & Programmierung</span><br>Mit Grundlagen angefangen mit Sprache: Blockly & Python</li>
+                            <li><span>Powercoders Webentwicklungskurs</span><br>Programmierung Sprache: HTML, CSS & Javascript</li>
                             <li><span>ETH Zürich Besuch – Informatiker EFZ Einblick</span><br>Erste Erfahrungen
                                       mit dem Raspberry Pi gesammelt.</li>
-                             <li><span>CAD Konstruktion</span><br>Mit Fusion 3D (projekten nach unten gestellt) </li>
-                             <li><span>Robotiks & Programmierung</span><br>Mit Grundlagen angefangen mit Sprache: Blockly & Python</li>
                         </ul>
                     </div>
 
                     <div class="tab-contents" id="Ausbildung">
                         <ul>
                             <li><span>2025-2026</span><br>Elektrotechnik, Berufswahlschule Limmattal, Dietikon</li>
-                            <li><span>2024-2025</span><br>Sprache und Kultur 1, Berufswahlschule Limmattal, Dietikon</li>
+                            <li><span>2024-2025</span><br>Sprache und Kultur, Berufswahlschule Limmattal, Dietikon</li>
                             <li><span>2023–2024</span><br>Vorkurs, Berufswahlschule Limmattal, Schlieren</li>
                             <li><span>2019–2023</span><br>Sekundarschule, Adventist International School, Sri Lanka</li>
                             <li><span>2014–2018</span><br>Primarschule, Adventist International School, Sri Lanka</li>
@@ -89,10 +107,11 @@
             </div>
         </div>
     </div>
-    <!-----services----->
+    <!-----skills----->
 
 
-    <!-----------portfolio=------------>
+
+     <!-----------portfolio=------------>
     <div class="portfolio" id="projekte">
         <div class="container">
             <h1 class="sub-title">Meine Projekten</h1>
@@ -171,6 +190,8 @@
             <p>Made by Supeshan Andruhilmin</p>
         </div>
      </div>
+
+<!---------------Javascript----------->
 
     <script>
         var tablinks = document.getElementsByClassName("tab-links");

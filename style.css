@@ -104,6 +104,20 @@ nav ul li a:hover::after{
     color: #00e5ff;
 }
 /*--about section--*/
+.line{
+    width: 100px;
+    height: 3px;
+    background: #00e5ff;
+    margin: 20px 0;
+}
+.about-t{
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Roboto Condensed", sans-serif';
+    margin-bottom: 30px;
+}
+
 
 #about{
     padding: 80px 0;
@@ -176,12 +190,9 @@ nav ul li a:hover::after{
 .tab-contents.active-tab{
     display: block;
 }
-/*-----------services------------*/
-
+/*-----------skills------------*/
 /*-----------portfolio------------*/
-#projekte{
-    padding: 40px 0;
-}
+
 
 .worklist{
     display: grid;
