@@ -255,7 +255,7 @@ nav ul li a:hover::after{
   bottom: 0;
   width: 100%;
   height: 0;
-  background: linear-gradient(rgba(255, 255, 255, 0.6), #00c3ffd4);
+  background: linear-gradient(rgba(255, 255, 255, 0.6), #000000d4);
   border-radius: 10px;
   overflow: hidden;
   display: flex;
@@ -281,7 +281,7 @@ nav ul li a:hover::after{
     font-family: "Joan",;
     margin-bottom: 2px;
     color: #ffffff;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .layer h3 p{
