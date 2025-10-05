@@ -280,12 +280,12 @@ nav ul li a:hover::after{
     font-size: 20px;
     font-family: "Joan",;
     margin-bottom: 2px;
-    color: #000;
+    color: #ffffff;
     font-weight: 600;
 }
 
 .layer h3 p{
-    color: #000;
+    color: #ffffff;
 }
 
 .layer a{
